@@ -12,12 +12,12 @@ def display():
     root.title("My calculator")
     root.minsize(523, 688)
     # background 
-    background = tk.PhotoImage(file = "/home/jk1234/Documents/YNOV/calculatrice/calculator/static/img/background.png")
+    background = tk.PhotoImage(file = "/home/jk1234/Documents/YNOV/calculator/calculator/static/img/background.png")
     background_label = tk.Label(image = background)
 
     # logo 
-    root.iconphoto(False, tk.PhotoImage(file='/home/jk1234/Documents/YNOV/calculatrice/calculator/static/img/xingxinlogo.PNG'))
-    logo = Image.open("/home/jk1234/Documents/YNOV/calculatrice/calculator/static/img/xingxinlogo2.PNG")
+    root.iconphoto(False, tk.PhotoImage(file='/home/jk1234/Documents/YNOV/calculator/calculator/static/img/xingxinlogo.PNG'))
+    logo = Image.open("/home/jk1234/Documents/YNOV/calculator/calculator/static/img/xingxinlogo2.PNG")
     logo = ImageTk.PhotoImage(logo)
     logo_label = tk.Label(image=logo)
     logo_label.image = logo 
